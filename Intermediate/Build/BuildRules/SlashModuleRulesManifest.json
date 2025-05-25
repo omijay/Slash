@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"E:\\unreal\\Slash\\Source\\Slash\\Slash.Build.cs",
+		"E:\\unreal\\Slash\\Source\\Slash.Target.cs",
+		"E:\\unreal\\Slash\\Source\\SlashEditor.Target.cs"
+	],
+	"EngineVersion": "5.5.4"
+}

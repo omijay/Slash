@@ -1,0 +1,14 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"E:/unreal/Slash/Content/StarterContent/Architecture/Floor_400x400.uasset",
+				"E:/unreal/Slash/Content/Blueprints/SlashCharacter.uasset",
+				"E:/unreal/Slash/Content/Blueprints/BP_SlashCharacter.uasset"
+			]
+		}
+	]
+}
