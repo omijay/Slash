@@ -27,16 +27,22 @@ void ASlashCharacter::MoveForward(float Value)
 {
 	if (Controller && (Value !=0) )
 	{
-		FVector Forward = GetActorForwardVector();
-		AddMovementInput(Forward, Value);
+		const FRotator ControlRotation = GetControlRotation();
+		const FRotator YawRotation(0.f, ControlRotation.Yaw, 0.f);
+
+		const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::X);
+		AddMovementInput(Direction, Value);
 	}
 }
 void ASlashCharacter::MoveRight(float Value)
 {
 	if (Controller && (Value != 0))
 	{
-		FVector Right = GetActorRightVector();
-		AddMovementInput(Right, Value);
+		const FRotator ControlRotation = GetControlRotation();
+		const FRotator YawRotation(0.f, ControlRotation.Yaw, 0.f);
+
+		const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::Y);
+		AddMovementInput(Direction, Value);
 	}
 }
 void ASlashCharacter::Turn(float Value)
