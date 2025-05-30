@@ -6,6 +6,8 @@
 #include "GameFramework/Character.h"
 #include "SlashCharacter.generated.h"
 
+class UGroomComponent;
+
 UCLASS()
 class SLASH_API ASlashCharacter : public ACharacter
 {
@@ -29,7 +31,13 @@ protected:
 
 	
 
-public:	
+private:
+	UPROPERTY(VisibleAnywhere, Category = Hair)
+	UGroomComponent* Hair;
+
+	UPROPERTY(VisibleAnywhere, Category = Hair)
+	UGroomComponent* Eyebrows;      
+
 
 
 
