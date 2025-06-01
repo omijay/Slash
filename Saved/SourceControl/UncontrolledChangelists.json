@@ -153,7 +153,8 @@
 				"E:/unreal/Slash/Content/__ExternalActors__/TestMap/A/AK/YV7OKGN2QG5Z4RYCQL4C7R.uasset",
 				"E:/unreal/Slash/Content/__ExternalActors__/TestMap/E/KQ/4ST9DY3C9ZRF1W7VMKN2KX.uasset",
 				"E:/unreal/Slash/Content/__ExternalActors__/TestMap/D/RT/ADHB5C5WBWDO5SCX3ZJHJY.uasset",
-				"E:/unreal/Slash/Content/TestMap.umap"
+				"E:/unreal/Slash/Content/TestMap.umap",
+				"E:/unreal/Slash/Content/Blueprints/characters/BP_SlashCharacter.uasset"
 			]
 		}
 	]
