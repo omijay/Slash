@@ -7,6 +7,7 @@
 #include "SlashCharacter.generated.h"
 
 class UGroomComponent;
+class AItem;
 
 UCLASS()
 class SLASH_API ASlashCharacter : public ACharacter
@@ -28,6 +29,7 @@ protected:
 	void MoveRight(float Value);
 	void Turn(float Value);
 	void LookUp(float Value);
+	void EKeyPressed();
 
 	
 
@@ -36,7 +38,12 @@ private:
 	UGroomComponent* Hair;
 
 	UPROPERTY(VisibleAnywhere, Category = Hair)
-	UGroomComponent* Eyebrows;      
+	UGroomComponent* Eyebrows;    
+
+	UPROPERTY(VisibleInstanceOnly)
+	AItem* OverlappingItem;
+public:
+	FORCEINLINE void SetOverLappingItem(AItem* Item) { OverlappingItem = Item; }
 
 
 

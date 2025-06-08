@@ -6,33 +6,8 @@
 			"description": "Default Uncontrolled Changelist",
 			"files": [
 				"E:/unreal/Slash/Content/StarterContent/Architecture/Floor_400x400.uasset",
-				"E:/unreal/Slash/Content/Blueprints/characters/ABP_Echo.uasset",
-				"E:/unreal/Slash/Content/__ExternalActors__/TestMap/C/NF/TBV4YUECIGSXN760FLY67W.uasset",
-				"E:/unreal/Slash/Content/__ExternalActors__/TestMap/E/69/1HDNMPQK1I33EJLNWGRXOJ.uasset",
-				"E:/unreal/Slash/Content/__ExternalActors__/TestMap/4/LP/2DC241NN4BJQNHGJDVTIZS.uasset",
 				"E:/unreal/Slash/Content/Blueprints/Items/Weapons/BP_Weapon.uasset",
-				"E:/unreal/Slash/Content/EchoContent/Characters/Echo/Meshes/Echo_Skeleton.uasset",
-				"E:/unreal/Slash/Content/Fab/Megascans/3D/Sword_uitlbiaga/Medium/T_uitlbiaga_2k_B.uasset",
-				"E:/unreal/Slash/Content/Fab/Megascans/3D/Sword_uitlbiaga/Medium/T_uitlbiaga_2k_N.uasset",
-				"E:/unreal/Slash/Content/Fab/Megascans/3D/Sword_uitlbiaga/Medium/T_uitlbiaga_2k_ORM.uasset",
-				"E:/unreal/Slash/Content/Fab/Megascans/3D/Sword_uitlbiaga/Medium/MI_uitlbiaga.uasset",
-				"C:/Program Files/UE_5.5/Engine/Plugins/Fab/Content/Materials/Standard/M_MS_Base.uasset",
-				"E:/unreal/Slash/Content/Fab/Megascans/3D/Sword_uitlbiaga/Medium/SM_uitlbiaga_tier_2.uasset",
-				"E:/unreal/Slash/Content/Fab/Sword/sword_texture_0.uasset",
-				"E:/unreal/Slash/Content/Fab/Sword/sword_texture_1.uasset",
-				"E:/unreal/Slash/Content/Fab/Sword/sword_texture_2.uasset",
-				"E:/unreal/Slash/Content/Fab/Sword/Material.uasset",
-				"E:/unreal/Slash/Content/Fab/Sword/sword.uasset",
-				"E:/unreal/Slash/Content/Maxamo/XBot/Metarial/Beta_Joints_MAT1.uasset",
-				"E:/unreal/Slash/Content/Maxamo/XBot/Metarial/Beta_HighLimbsGeoSG3.uasset",
-				"E:/unreal/Slash/Content/Maxamo/XBot/SK_xbot.uasset",
-				"E:/unreal/Slash/Content/Maxamo/XBot/Rigs/IK_XBot.uasset",
-				"E:/unreal/Slash/Content/Blueprints/characters/Rigs/IK_Echo.uasset",
-				"E:/unreal/Slash/Content/Blueprints/characters/Animations/Standing_Melee_Attack_Horizontal.uasset",
-				"E:/unreal/Slash/Content/Blueprints/characters/Animations/Standing_Idle.uasset",
-				"E:/unreal/Slash/Content/Blueprints/characters/BP_SlashCharacter.uasset",
-				"E:/unreal/Slash/Content/Maxamo/XBot/SKM_XBot.uasset",
-				"E:/unreal/Slash/Content/Blueprints/characters/Rigs/IK_E.uasset"
+				"E:/unreal/Slash/Content/__ExternalActors__/TestMap/4/LP/2DC241NN4BJQNHGJDVTIZS.uasset"
 			]
 		}
 	]

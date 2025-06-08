@@ -53,6 +53,18 @@
     <ClCompile Include="..\..\Source\Slash\Private\Characters\SlashCharacter.cpp">
       <Filter>Source\Slash\Private\Characters</Filter>
     </ClCompile>
+    <Filter Include="Source\Slash\Private\Items">
+      <UniqueIdentifier>{3DF3D363-0D69-3A5B-97AE-980F0AD3E09A}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Slash\Private\Items\Item.cpp">
+      <Filter>Source\Slash\Private\Items</Filter>
+    </ClCompile>
+    <Filter Include="Source\Slash\Private\Items\Weapons">
+      <UniqueIdentifier>{408517EE-2F55-385F-99C3-9FA193CFEA11}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Slash\Private\Items\Weapons\Weapon.cpp">
+      <Filter>Source\Slash\Private\Items\Weapons</Filter>
+    </ClCompile>
     <Filter Include="Source\Slash\Public">
       <UniqueIdentifier>{C8A49F26-1F9B-35D4-8F2E-DBB7BA8DBEC9}</UniqueIdentifier>
     </Filter>
@@ -64,6 +76,18 @@
     </ClCompile>
     <ClCompile Include="..\..\Source\Slash\Public\Characters\SlashCharacter.h">
       <Filter>Source\Slash\Public\Characters</Filter>
+    </ClCompile>
+    <Filter Include="Source\Slash\Public\Items">
+      <UniqueIdentifier>{03EE9902-1225-3E3E-AF6E-23FDA4DA1733}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Slash\Public\Items\Item.h">
+      <Filter>Source\Slash\Public\Items</Filter>
+    </ClCompile>
+    <Filter Include="Source\Slash\Public\Items\Weapons">
+      <UniqueIdentifier>{57653203-DE2C-3482-ABFD-5C7AF9E01F1C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Slash\Public\Items\Weapons\Weapon.h">
+      <Filter>Source\Slash\Public\Items\Weapons</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

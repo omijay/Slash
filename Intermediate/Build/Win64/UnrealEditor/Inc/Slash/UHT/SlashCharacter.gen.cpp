@@ -12,6 +12,7 @@ void EmptyLinkFunctionForGeneratedCodeSlashCharacter() {}
 // Begin Cross Module References
 ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 HAIRSTRANDSCORE_API UClass* Z_Construct_UClass_UGroomComponent_NoRegister();
+SLASH_API UClass* Z_Construct_UClass_AItem_NoRegister();
 SLASH_API UClass* Z_Construct_UClass_ASlashCharacter();
 SLASH_API UClass* Z_Construct_UClass_ASlashCharacter_NoRegister();
 UPackage* Z_Construct_UPackage__Script_Slash();
@@ -44,9 +45,14 @@ struct Z_Construct_UClass_ASlashCharacter_Statics
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "Public/Characters/SlashCharacter.h" },
 	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_OverlappingItem_MetaData[] = {
+		{ "Category", "SlashCharacter" },
+		{ "ModuleRelativePath", "Public/Characters/SlashCharacter.h" },
+	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_Hair;
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_Eyebrows;
+	static const UECodeGen_Private::FObjectPropertyParams NewProp_OverlappingItem;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -56,9 +62,11 @@ struct Z_Construct_UClass_ASlashCharacter_Statics
 };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ASlashCharacter_Statics::NewProp_Hair = { "Hair", nullptr, (EPropertyFlags)0x00400000000a0009, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ASlashCharacter, Hair), Z_Construct_UClass_UGroomComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Hair_MetaData), NewProp_Hair_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ASlashCharacter_Statics::NewProp_Eyebrows = { "Eyebrows", nullptr, (EPropertyFlags)0x00400000000a0009, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ASlashCharacter, Eyebrows), Z_Construct_UClass_UGroomComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Eyebrows_MetaData), NewProp_Eyebrows_MetaData) };
+const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ASlashCharacter_Statics::NewProp_OverlappingItem = { "OverlappingItem", nullptr, (EPropertyFlags)0x0040000000020801, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ASlashCharacter, OverlappingItem), Z_Construct_UClass_AItem_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_OverlappingItem_MetaData), NewProp_OverlappingItem_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ASlashCharacter_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASlashCharacter_Statics::NewProp_Hair,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASlashCharacter_Statics::NewProp_Eyebrows,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASlashCharacter_Statics::NewProp_OverlappingItem,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_ASlashCharacter_Statics::PropPointers) < 2048);
 UObject* (*const Z_Construct_UClass_ASlashCharacter_Statics::DependentSingletons[])() = {
@@ -101,10 +109,10 @@ ASlashCharacter::~ASlashCharacter() {}
 struct Z_CompiledInDeferFile_FID_Slash_Source_Slash_Public_Characters_SlashCharacter_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_ASlashCharacter, ASlashCharacter::StaticClass, TEXT("ASlashCharacter"), &Z_Registration_Info_UClass_ASlashCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ASlashCharacter), 2615261888U) },
+		{ Z_Construct_UClass_ASlashCharacter, ASlashCharacter::StaticClass, TEXT("ASlashCharacter"), &Z_Registration_Info_UClass_ASlashCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ASlashCharacter), 4020038685U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Slash_Source_Slash_Public_Characters_SlashCharacter_h_1054633040(TEXT("/Script/Slash"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Slash_Source_Slash_Public_Characters_SlashCharacter_h_2199834465(TEXT("/Script/Slash"),
 	Z_CompiledInDeferFile_FID_Slash_Source_Slash_Public_Characters_SlashCharacter_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Slash_Source_Slash_Public_Characters_SlashCharacter_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
