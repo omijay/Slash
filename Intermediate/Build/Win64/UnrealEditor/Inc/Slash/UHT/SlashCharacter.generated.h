@@ -14,7 +14,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define SLASH_SlashCharacter_generated_h
 
-#define FID_Slash_Source_Slash_Public_Characters_SlashCharacter_h_15_INCLASS_NO_PURE_DECLS \
+#define FID_Slash_Source_Slash_Public_Characters_SlashCharacter_h_18_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesASlashCharacter(); \
 	friend struct Z_Construct_UClass_ASlashCharacter_Statics; \
@@ -23,7 +23,7 @@ public: \
 	DECLARE_SERIALIZER(ASlashCharacter)
 
 
-#define FID_Slash_Source_Slash_Public_Characters_SlashCharacter_h_15_ENHANCED_CONSTRUCTORS \
+#define FID_Slash_Source_Slash_Public_Characters_SlashCharacter_h_18_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	ASlashCharacter(ASlashCharacter&&); \
@@ -35,12 +35,12 @@ public: \
 	NO_API virtual ~ASlashCharacter();
 
 
-#define FID_Slash_Source_Slash_Public_Characters_SlashCharacter_h_12_PROLOG
-#define FID_Slash_Source_Slash_Public_Characters_SlashCharacter_h_15_GENERATED_BODY \
+#define FID_Slash_Source_Slash_Public_Characters_SlashCharacter_h_15_PROLOG
+#define FID_Slash_Source_Slash_Public_Characters_SlashCharacter_h_18_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Slash_Source_Slash_Public_Characters_SlashCharacter_h_15_INCLASS_NO_PURE_DECLS \
-	FID_Slash_Source_Slash_Public_Characters_SlashCharacter_h_15_ENHANCED_CONSTRUCTORS \
+	FID_Slash_Source_Slash_Public_Characters_SlashCharacter_h_18_INCLASS_NO_PURE_DECLS \
+	FID_Slash_Source_Slash_Public_Characters_SlashCharacter_h_18_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

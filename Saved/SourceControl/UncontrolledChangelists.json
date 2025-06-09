@@ -5,9 +5,7 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
-				"E:/unreal/Slash/Content/StarterContent/Architecture/Floor_400x400.uasset",
-				"E:/unreal/Slash/Content/Blueprints/Items/Weapons/BP_Weapon.uasset",
-				"E:/unreal/Slash/Content/__ExternalActors__/TestMap/4/LP/2DC241NN4BJQNHGJDVTIZS.uasset"
+				"E:/unreal/Slash/Content/StarterContent/Architecture/Floor_400x400.uasset"
 			]
 		}
 	]

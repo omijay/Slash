@@ -90,4 +90,9 @@
       <Filter>Source\Slash\Public\Items\Weapons</Filter>
     </ClCompile>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\Slash\Public\Characters\CharacterTypes.h">
+      <Filter>Source\Slash\Public\Characters</Filter>
+    </ClInclude>
+  </ItemGroup>
 </Project>
