@@ -71,6 +71,9 @@
     <Filter Include="Source\Slash\Public\Characters">
       <UniqueIdentifier>{22E7A9D7-1F66-3724-A0AD-BE9FB4D684EE}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\Slash\Public\Characters\CharacterTypes.h">
+      <Filter>Source\Slash\Public\Characters</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\Slash\Public\Characters\SlashAnimInstance.h">
       <Filter>Source\Slash\Public\Characters</Filter>
     </ClCompile>
@@ -89,10 +92,5 @@
     <ClCompile Include="..\..\Source\Slash\Public\Items\Weapons\Weapon.h">
       <Filter>Source\Slash\Public\Items\Weapons</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\Slash\Public\Characters\CharacterTypes.h">
-      <Filter>Source\Slash\Public\Characters</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>
